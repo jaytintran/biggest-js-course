@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: crimson;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+}
+
+nav {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* main {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin-left: 40px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+nav ul li a {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.logo-container h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.main-img {
+  width: 40%;
+  object-fit: cover;
+  margin-top: 3rem;
+}
+
+.sidebar {
+  background-color: #d75158;
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+
+.main-title {
+  transform: rotate(-90deg);
+  margin-top: 10rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Kumar One Outline", cursive;
+}
+
+.main-info {
+  font-size: 1.2rem;
+  /* margin-top: 2rem; */
+  text-align: center;
+  /* color: #fff; */
+  transform: rotate(-90deg);
+  width: 300px;
+  /* margin-bottom: 5rem;
+  margin-left: 2rem; */
+}
