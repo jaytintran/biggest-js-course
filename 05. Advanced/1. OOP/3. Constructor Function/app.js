@@ -36,3 +36,62 @@ function CreateCar(type, model, brand, year, color) {
 
 const toyota = new CreateCar("sedan", "Corolla", "Toyota", 2022, "red");
 console.log(toyota);
+
+function Book(title, author, pages, year) {
+  this.title = title;
+  this.author = author;
+  this.pages = pages;
+  this.getInfo = function () {
+    return `${this.title} by ${this.author}, ${this.pages} pages, ${this.year}`;
+  };
+}
+
+const book1 = new Book("Reality Transurfing", "Vadim Zeland", 652, 2016);
+const book2 = new Book("The Alchemist", "Paulo Coelho", 208, 1988);
+const book3 = new Book(
+  "The Subtle Art of Not Giving a F*ck",
+  "Mark Manson",
+  224,
+  2016
+);
+
+const book1Info = book1.getInfo();
+const book2Info = book2.getInfo();
+const book3Info = book3.getInfo();
+console.log(book1Info); // Reality Transurfing by Vadim Zeland, 652 pages, 2016
+console.log(book2Info);
+console.log(book3Info);
+
+// ----
+
+function Person(name, age, gender) {
+  this.name = name;
+  this.age = age;
+  this.gender = gender;
+  this.getInfo = function () {
+    console.log(
+      `Hello, my name is ${this.name} and I am ${this.age} years old.`
+    );
+  };
+}
+
+const person1 = new Person("John", 30, "male");
+console.log(person1.person1.name, person1.age, person1.gender);
+
+// ---
+
+function Car(make, model, year, color) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+  this.color = color;
+  this.start = function () {
+    console.log(`${this.make} ${this.model} is driving!`);
+  };
+  this.honk = function () {
+    console.log("Beep beep!");
+  };
+  this.stop = function () {
+    console.log(`${this.make} ${this.model} has stopped.`);
+  };
+}
