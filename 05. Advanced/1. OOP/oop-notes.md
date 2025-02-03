@@ -8,10 +8,10 @@
 
 1. Objects: are collections of key-value pairs, where keys are property names, and values can be primitives or functions.
 2. Classes: are blueprints for creating objects. They encapsulate data and methods into a single entity. They are like templates, for example: creating a lot same-design shirts with different color.
-3. Encapsulation: Encapsulation restricts direct access to some components of an object and allows controlled access through methods.
-4. Inheritance: allows one class to inherit properties and methods from another class.
-5. Polymorphism: allows methods in derived classes to override methods in the base class.
-6. Abstraction: hides complex implementation details and shows only the necessary features.
+3. Encapsulation (Tính đóng gói): Encapsulation restricts direct access to some components of an object and allows controlled access through methods.
+4. Inheritance (Tính kế thừa): allows one class to inherit properties and methods from another class.
+5. Polymorphism (Tính đa hình): allows methods in derived classes to override methods in the base class.
+6. Abstraction (Tính trừu tượng): hides complex implementation details and shows only the necessary features.
 
 ## Classes
 
@@ -24,3 +24,13 @@
 ## OOP in JS?
 
 OOP in JS refers to the practice of designing and structuring code around objects and their interactions. It allows us to model how things work in real life and their relationships using objects and classes.
+
+## Vietnamese Version
+
+OOP chính là một kiểu lập trình với các khái niệm như Lớp (Class), Đối tượng (Object), Kế thừa (Inheritance), tính đóng gói (Encapsulation), Trừu tượng (Abstraction), Đa hình (Polymorphism) gọi tắt là OOP.
+
+Lập trình hướng đối tượng hay còn gọi là lập trình OOP là kỹ thuật lập trình mà tất cả các logic, yêu cầu thực tế đều được xây dựng xoay quanh các đối tượng.
+
+Khi sử dụng OOP, chúng ta sẽ định nghĩa các class để mô hình hóa các đối tượng thực tế. Trong ứng dụng các class sẽ được khởi tạo thành các instance. Trong suốt thời gian ứng dụng chạy, các phương thức (method) của đối tượng này sẽ được gọi.
+
+Trong thế giới thực, đối tượng là những thực thể tồn tại có trạng thái và hành vi.

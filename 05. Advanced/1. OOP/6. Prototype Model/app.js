@@ -1,16 +1,14 @@
 /* 
 
-    Every JS object has an anonymous property called prototype.
-
-    Functions & arrays are also objects, and they also have a prototype property.
-
+    Every JS object has an anonymous property called prototype, and this property is an object.
+    All Functions & arrays are also objects, so they also have a prototype property.
     The prototype is the parent of that object, prototype property is the object by itself, which has special properties & methods.
 
 */
 
 /* 
 
-    Every object is associated with another object.
+    Every object is associated with another object called prototype.
     The object (a) is associated with [[Prototype]] object (b).
     -> Which means an object will inherit all properties of Object.prototype || [[Prototype]] object.
 
