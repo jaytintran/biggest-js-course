@@ -52,7 +52,17 @@ const car1 = new Car("Toyota", "Corolla", 2022, "Red");
 // Inheritance allows one class to inherit properties and methods from another.
 
 class ElectricCar extends Car {
+  constructor(make, model, year, color, batteryCapacity) {
+    super(make, model, year, color); // This SUPER function calls the constructor of the parent class
+    this.batteryCapacity = batteryCapacity;
+  }
   chargeBattery() {
     console.log(`${this.make} ${this.model} is charging the battery!`);
   }
 }
+
+const elec1 = new ElectricCar("Tesla", "Model S", 2022, "White", 100);
+elec1.chargeBattery(); // Tesla Model S is charging the battery!
+elec1.printInfo(); // Make: Tesla, Model: Model S, Year: 2022, Color: White
+elec1.honk(); // Beep beep!
+elec1.greetDriver(); // Hello, Tesla Model S driver!
