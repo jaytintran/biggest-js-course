@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925,
+      "genre": "Literary Fiction",
+      "available": true,
+      "rating": 4.5,
+      "description": "A story of decadence and excess, chronicling the lives of mysterious millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan."
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "genre": "Dystopian Fiction",
+      "available": false,
+      "rating": 4.7,
+      "description": "A dystopian social science fiction novel focusing on the consequences of totalitarianism, mass surveillance, and repressive regimentation."
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "genre": "Romance",
+      "available": true,
+      "rating": 4.6,
+      "description": "A romantic novel following the emotional development of Elizabeth Bennet, who learns the error of making hasty judgments."
+    }
+  ]
+}
